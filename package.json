@@ -1,15 +1,30 @@
 {
   "name": "co-wxsign",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "wechat signature utilities",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "jerry",
   "license": "ISC",
   "files": [
-    "lib",
     "*.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/co-wxapi/co-wxsign.git"
+  },
+  "keywords": [
+    "wechat",
+    "signature",
+    "wxsign"
+  ],
+  "engines": {
+    "node": ">= 0.1.1"
+  },
+  "bugs": {
+    "url": "https://github.com/co-wxapi/co-wxsign/issues"
+  },
+  "homepage": "https://github.com/co-wxapi/co-wxsign"
 }
